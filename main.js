@@ -15,5 +15,5 @@ app.use((req, res, next) => {
 app.use('/', expenseRouters);
 
 app.listen(port, () => {
-    console.log(`Sever has started successfully: http://localhost:${port}, dirname = ${__dirname}`);
+    console.log(`Sever has started successfully: http://localhost:${port}`);
 });
